@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" />
+  <title>La Percha Online</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <img src="pictures/logo_la_percha_online.png" alt="Prendas que están colgadas de un perchero de pie"
+      title="Logo La Percha Online">
+    <h1>La Percha Online</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Hombre</a></li>
+        <li><a href="#">Mujer</a></li>
+        <li><a href="#">Niños</a></li>
+        <li><a href="#">Ofertas</a></li>
+      </ul>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="contenido">
+        <div class="logo">
+          <img src="./pictures/la_percha_online.png" alt="Logo La Percha Online" title="La Percha Online" />
+        </div>
+        
+        <div class="imagen"></div>
+        
+        <div class="texto">
+          Registrate & recibí <br/>
+          todas las novedades que tenemos para vos!
+        </div>  
+      </div>
+
+      <form id="formulario">
+
+        <div class="titulo">Ingresar</div>
+        
+        <div><label for="nombreDeUsuario">Nombre de Usuario</label>
+          <i class="fas fa-user"></i>
+          
+          <input
+              type="text"
+              name="username"
+              id="nombreDeUsuario"
+              placeholder="Juan Pérez"/>
+          
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          
+          <div class="error"></div></div>
+        <div><label for="correoElectronico">Correo Electrónico</label>
+          <i class="far fa-envelope"></i>
+          
+          <input
+              type="email"
+              name="email"
+              id="correoElectronico"
+              placeholder="abc@gmail.com"/>
+          
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          
+          <div class="error">
+          </div>
+          </div>
+
+          <label for="password">Contraseña</label>
+          <i class="fas fa-lock"></i>
+          
+          <input
+              type="password"
+              name="password"
+              id="contrasena"
+              placeholder="Ingresar contraseña"/>
+          
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          
+          <div class="error"></div>
+          </div>
+        <div class="social"> <div class="titulo">Ingresá ya!</div>
+      
+        <div class="pregunta">
+          Ya estás registrado? <br />
+          <span>Registrate</span>
+        </div>
+  
+        <div class="btn"><div class="btn-1">
+          <img src="https://img.icons8.com/color/30/000000/google-logo.png" />
+          Registrate
+      </div>
+      
+      <div class="btn-2">
+        <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" />
+          Registrate
+</div>
+        <form>
+          
+          <button id="btn" type="submit">Enviar</button>
+          
+      </form>
+    </form>
+    </div>
+  </section>
+
+  <main>
+    <div>
+      <h2>Carrito de compras</h2>
+      <ul id="cart"></ul>
+      <p>Total: <span id="total">$0</span></p>
+    </div>
+
+    <section class="products">
+      <h2>Productos Destacados</h2>
+      <div class="product-grid">
+        <section id="products">
+          <div class="product">
+            <img src="./pictures/camisa_hombre.png" alt="Camisa para hombre estampado tartán"
+              title="Camisa Tartán Hombre">
+            <h3>Camisa de Hombre</h3>
+            <h4>$10</h4>
+          </div>
+          <div class="product">
+            <img src="./pictures/pantalon_niños.png" alt="Pantalón de Jean para Niños" title="Pantalón par Niños">
+            <h3>Pantalón para Niños</h3>
+            <h4>$20</h4>
+          </div>
+          <div class="product">
+            <img src="./pictures/vestido.png" alt="Vestido Casual con cordón en la cintura estampado"
+              title="Vestido Casual Estampado">
+            <h3>Vestido Estampado</h3>
+            <h4>$30</h4>
+          </div>
+        </section>
+
+        <section>
+          <form id="add-to-cart-form">
+            <label for="product-select">Seleccioná un producto:</label>
+            <select id="product-select" name="product-select">
+              <option value="product1">Camisa de Hombre</option>
+              <option value="product2">Pantalón para Niños</option>
+              <option value="product3">Vestido Estampado</option>
+            </select>
+            <br>
+            <label for="quantity-input">Cantidad:</label>
+            <input type="number" id="quantity-input" name="quantity-input" min="1" value="1">
+            <br>
+            <button type="submit">Añadir al Carrito</button>
+          </form>
+          
+        </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 La Percha Online</p>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
