@@ -4,7 +4,7 @@
 :root {
     --clr-main: #c7a2ca;;
     --clr-main-light: #c297ab;
-    --clr-green: #cabfa0;
+    --clr-black: #000;
     --clr-yellow: #ede7d6;
     --clr-blue: #e0efef;
 }
@@ -35,7 +35,7 @@ a {
 
 aside {
     padding: 2rem;
-    color: var(--clr-green);
+    color: var(--clr-black);
     position: sticky;
     top: 0;
     height: 100vh;
