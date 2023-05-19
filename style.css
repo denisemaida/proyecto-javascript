@@ -153,7 +153,6 @@ main {
 .producto-imagen {
     max-width: 50%;
     border-radius: 1rem;
-    object-fit: cover;
 }
 
 .producto-detalles {
