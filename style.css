@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 
 :root {
-    --clr-main: #c7a2ca;;
-    --clr-main-light: #c297ab;
+    --clr-main: #c7a2ca;
+    --clr-main-purple:#a468a9 ;
     --clr-black: #000;
     --clr-yellow: #ede7d6;
     --clr-blue: #e0efef;
@@ -39,6 +39,9 @@ aside {
     position: sticky;
     top: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo {
@@ -46,3 +49,7 @@ aside {
     font-size: 1.3rem;
 }
 
+.texto-footer {
+    color: var(--clr-main-pink);
+    font-size: .85rem;
+}
