@@ -186,9 +186,6 @@ main {
     color: var(--clr-white);
 }
 
-
-/** CARRITO **/
-
 .contenedor-carrito {
     display: flex;
     flex-direction: column;
