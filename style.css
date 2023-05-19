@@ -163,7 +163,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: .25rem;
-    text-align: center;
+    align-items: flex;
 }
 
 .producto-titulo {
