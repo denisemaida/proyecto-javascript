@@ -15,7 +15,17 @@
     font-family: 'Biryani', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea,
+ul {
     margin: 0;
     padding: 0;
 }
@@ -103,8 +113,8 @@ aside {
     box-shadow: 0 -1rem 0 var(--clr-white);
 }
 
-.boton-menu > i.bi-hand-index-thumb-fill,
-.boton-menu > i.bi-hand-index-thumb {
+.boton-menu>i.bi-hand-index-thumb-fill,
+.boton-menu>i.bi-hand-index-thumb {
     transform: rotateZ(90deg);
 }
 
@@ -150,7 +160,7 @@ main {
 
 .producto-imagen {
     max-width: 100%;
-    border-radius: 1rem;
+    border-radius: 1rem; justify-content: space-evenly;
 }
 
 .producto-detalles {
@@ -348,7 +358,8 @@ main {
         color: var(--clr-gray);
     }
 
-    .open-menu, .close-menu {
+    .open-menu,
+    .close-menu {
         background-color: transparent;
         color: var(--clr-gray);
         border: 0;
@@ -378,7 +389,7 @@ main {
         flex-wrap: wrap;
         row-gap: 1rem;
     }
-    
+
 
 }
 
