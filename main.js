@@ -213,5 +213,42 @@ categoria: {
 categoria: {
     nombre: "Hombres",
     id: "hombres",}, precio: 550,},
+{id:"mujeres",
+titulo: "Cinturón Flora",
+imagen: "./pictures/accesorios/cinturon_mujer.png",
+categoria: {
+    nombre: "Mujeres",
+    id: "mujeres",}, precio:550,},
+{id: "bebés",
+titulo: "Conjunto gorrito + mitones varios colores",
+imagen: "./pictures/accesorios/conjunto_gorros_mitones_bebe.jpg",
+categoria:{
+    nombre: "Bebés",
+    id: "bebés",}, precio: 120,},
+{id: "mujeres",
+titulo: "Scrunchies x4 colores varios",
+imagen: "./pictures/accesorios/gomitas_pelo_mujer.jpg",
+categoria: {
+    nombre: "Mujeres",
+    id: "mujeres",}, precio: 100,},
+{id: "niños",
+titulo: "Gomitas coloridas",
+imagen: "./pictures/accesorios/gomitas_pelo_niña.jpg",
+categoria: {
+nombre:"Niños",
+id: "niños",}, precio: 50,},
+{id: "niños",
+titulo: "Gorra rosa Zara",
+imagen: "./pictures/accesorios/gorra_niña.jpg",
+categoria: {
+    nombre: "Niños",
+    id: "niños",}, precio: 200,},
+{id: "hombres",
+nombre: "Gorra rojo y azul",
+imagen: ".pictures/accesorios/gorra_zara_hombre.jpg",
+categoria: {
+    nombre: "Hombres",
+    id: "hombres",
+}}
 ]
 
