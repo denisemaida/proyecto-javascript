@@ -616,8 +616,12 @@ categoria:{nombre:"Mujeres",id:"mujeres",},precio:2000,},
 categoria:{nombre:"Niños",id:"niños",},precio:950,},
 {id:"niños",titulo:"Vestido Lavanda",imagen:"./pictures/vestidos/vestido_asismetrico_popelin_niña.jpg",
 categoria:{nombre:"Niños",id:"niños",},precio:950,},
-]
+];
+
+const contenedorProductos = document.querySelector("#contenedorProductos")
 
 function cargarProductos (){
-
+productos.forEach(productos => {
+    let div =
+});
 }
