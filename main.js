@@ -618,10 +618,15 @@ categoria:{nombre:"Niños",id:"niños",},precio:950,},
 categoria:{nombre:"Niños",id:"niños",},precio:950,},
 ];
 
-const contenedorProductos = document.querySelector("#contenedorProductos")
+const contenedorProductos = document.querySelector("#contenedor-productos");
 
 function cargarProductos (){
+
 productos.forEach(productos => {
-    let div =
+
+    const div = document.createElement("div");
+div.classList.add("producto");
+div.innerHTML = 
+
 });
 }
