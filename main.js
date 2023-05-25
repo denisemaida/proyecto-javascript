@@ -619,6 +619,7 @@ categoria:{nombre:"Niños",id:"niños",},precio:950,},
 ];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
+const botonesCategorias = document.querySelectorAll(".botones-categorias");
 
 function cargarProductos (){
 
@@ -632,9 +633,18 @@ alt="${producto.titulo}">
 <h3 class="producto-titulo">${producto.titulo}</h3>
 <p class="producto-precio">${producto.precio}</p>
 <button class="producto-agregar" id="${producto.id}">Agregar</button>
-</div>´;
+</div>`;
+
 contenedorProductos.append(div);
 })
 
 }
 cargarProductos();
+
+botonesCategorias.forEach(boton => {
+    boton.addEventListener("click", (e)=>{
+botonesCategorias.forEach(boton => boton.classList.remove("active"));
+
+e.currentTarget.classList.add("active");
+    })
+})
