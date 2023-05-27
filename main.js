@@ -1114,7 +1114,7 @@ const productosArray = [
 ];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
-const botonesCategorias = document.querySelectorAll(".botones-categorias");
+const botonesCategorias = document.querySelectorAll(".boton-categorias");
 
 function cargarProductos(productosElegidos) {
   contenedorProductos.innerHTML = "";
@@ -1135,11 +1135,11 @@ alt="${producto.titulo}">
 }
 cargarProductos();
 
-botonesCategorias.forEach((boton) => {
+botonesCategorias.forEach(boton => {
 
   boton.addEventListener("click", (e) => {
 
-    botonesCategorias.forEach((boton) => boton.classList.remove("active"));
+    botonesCategorias.forEach(boton => boton.classList.remove("active"));
 
     e.currentTarget.classList.add("active");
 
