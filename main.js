@@ -1160,7 +1160,32 @@ if (e.currentTarget.id != "todos") {
   cargarProductos(productos);
 }
 
-
   })
 
-})
+});
+
+function actualizarBotonesAgregar () {
+  botonesAgregar = document.querySelectorAll(".producto-agregar");
+
+  botonesAgregar.forEach(boton => {
+    boton.addEventListener("click", agregarAlCarrito)
+  });
+  }
+
+  const productosEnCarrito = [];
+
+  function agregarAlCarrito(e) {
+
+const idBoton = e.currentTarget.id;
+
+const productoAgregado = productos.find(producto => producto.id === idBoton);
+
+if(productosEnCarrito.some(producto => producto.id === idBoton)) {
+} else {
+productoAgregado.cantidad = 1;
+  productosEnCarrito.push(productoAgregado);
+
+}
+
+
+  }
