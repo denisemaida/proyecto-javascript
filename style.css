@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Biryani&display=swap');
 
 :root {
-    --clr-main: #4b33a8;
-    --clr-main-light: #785ce9;
-    --clr-white: #ececec;
-    --clr-gray: #e2e2e2;
-    --clr-red: #961818;
+    --clr-main: #f591ab;
+    --clr-main-light: #a5418b;
+    --clr-white: #121b78;
+    --clr-gray: #83e8c6;
+    --clr-red: #20dad8;
 }
 
 * {
